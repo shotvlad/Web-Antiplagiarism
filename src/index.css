@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+body{
+    font-family: 'Exo 2', sans-serif;
+    position: relative;
+    background: linear-gradient(90deg, #C33764 0%, #1D2671 100%), #C33764;
+}
+
+#particles-js {
+    position: relative;
+    width: 100%;
+    height: 100%;
+ }
+ 
+
+#textAi{
+    position: relative;
+   /* top: 0.48em;*/
+    font-size: 4em;
+    margin-left: 10em;
+    font-weight: bolder;
+    height: 150px;
+    color: white;
+}
+
+#textApp{
+    position:absolute;
+    font-weight: bolder;
+   /* top: 0.66em;*/
+    font-size: 2em;
+    margin-left: 14.1em;
+    height: 116px;
+    position:relative;
+    color: white;
+}
+
+#value{
+position: absolute;
+width: 560px;
+height: 240px;
+left: 132px;
+top: 372px;
+
+background: #F4F4F4;
+border: 2px solid #D448B5;
+box-sizing: border-box;
+border-radius: 20px;
+
+font-size: 20px;
+
+}
+
+select{
+    position: absolute;
+    width: 320px;
+    height: 70px;
+    left: 134px;
+    top: 643px;
+    
+    background: #FFFFFF;
+    border: 2px solid #D448B5;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#paste{
+position: absolute;
+width: 223px;
+height: 66px;
+left: 469px;
+top: 644px;
+background: #D448B5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+color: white;
+}
+
+#img{
+    position: absolute;
+width: 560px;
+height: 340px;
+left: 752px;
+top: 372px;
+border-radius: 20px;
+}
+
+.footter{
+position: absolute;
+width: 1180px;
+height: 90px;
+left: 132px;
+top: 851.81px;
+background: #FFFFFF;
+border: 2px solid #D448B5;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+#lable{
+position: absolute;
+left: 6.4%;
+right: 82.74%;
+top: 33.81%;
+bottom: 36.59%;
+text-align: center;
+font-size: 23px;
+font-style: normal;
+font-weight: bolder;
+color: #D448B5;
+}
+
+
+.fab.fa-github{
+    position: relative;
+    left: 24.22em;
+    top: -0.2em;
+font-size: 2.5em;
+color: #D448B5;
+}
+.fab.fa-vk{
+    position: relative;
+    left: 25.8em;
+    top: -1.2em;
+font-size: 2.5em;
+color: #D448B5;
+}
+.fab.fa-facebook-square{
+    position: relative;
+    left: 24.52em;
+    top: -2em;
+font-size: 2.8em;
+color: #D448B5;
+}
+#nickname{
+position:absolute;
+left: 42.7%;
+top: 35.13%;
+
+font-style: normal;
+font-size: 23px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* second text */
+
+color: #5C5C5C;
+
+}
+.textDEV{
+    position:absolute;
+    left:3.5%;
+    font-size: 0.7em;
+    top: 3.4em;
+    color: white;
+}
+
+.fas.fa-egg{
+position: relative;
+left: 3.4%;
+right: 86.18%;
+top: 30.92%;
+bottom: 10.86%;
+font-size: 2.09em;
+color: #D448B5;
+}
