@@ -20,22 +20,23 @@ body{
 
 #textAi{
     position: relative;
-   /* top: 0.48em;*/
-    font-size: 4em;
-    margin-left: 10em;
-    font-weight: bolder;
-    height: 150px;
+    top: 0.48em;
+    font-size: 5em;
+    margin-left: 10.1em;
+
+    /*font-weight: bolder;*/
+
     color: white;
 }
 
 #textApp{
-    position:absolute;
-    font-weight: bolder;
-   /* top: 0.66em;*/
-    font-size: 2em;
-    margin-left: 14.1em;
-    height: 116px;
     position:relative;
+    font-weight: 300;
+    top: 1.66em;
+    font-size: 3em;
+    margin-left: 11.5em;
+   
+
     color: white;
 }
 
@@ -43,7 +44,7 @@ body{
 position: absolute;
 width: 560px;
 height: 240px;
-left: 132px;
+left: 315px;
 top: 372px;
 
 background: #F4F4F4;
@@ -59,7 +60,7 @@ select{
     position: absolute;
     width: 320px;
     height: 70px;
-    left: 134px;
+    left:317px;
     top: 643px;
     
     background: #FFFFFF;
@@ -68,11 +69,13 @@ select{
     border-radius: 10px;
 }
 
+
+
 #paste{
 position: absolute;
 width: 223px;
 height: 66px;
-left: 469px;
+left: 650px;
 top: 644px;
 background: #D448B5;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -86,10 +89,10 @@ color: white;
 }
 
 #img{
-    position: absolute;
+position: absolute;
 width: 560px;
 height: 340px;
-left: 752px;
+left: 960px;
 top: 372px;
 border-radius: 20px;
 }
@@ -98,7 +101,7 @@ border-radius: 20px;
 position: absolute;
 width: 1180px;
 height: 90px;
-left: 132px;
+left: 317px;
 top: 851.81px;
 background: #FFFFFF;
 border: 2px solid #D448B5;
