@@ -87,6 +87,14 @@ line-height: 34px;
 color: white;
 }
 
+#result{
+    position: relative;
+    color: white;
+    font-size: 1.5em;
+    margin-top: 6em;   
+    margin-left: 55%;
+}
+
 #img{
 position: absolute;
 width: 560px;
