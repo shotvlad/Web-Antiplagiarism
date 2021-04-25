@@ -57,7 +57,7 @@ int main()
 	unique = antiPlagiarism(getDB(), name);
 
     if (!name.empty()) {
-    	cout << round(unique) << "\n";
+    	cout << unique << "\n";
     } else {
     	cout << "Text is not provided!\n";
     }	
