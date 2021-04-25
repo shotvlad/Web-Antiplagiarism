@@ -46,7 +46,7 @@ width: 560px;
 height: 240px;
 left: 315px;
 top: 372px;
-
+padding: 1em;
 background: #F4F4F4;
 border: 2px solid #D448B5;
 box-sizing: border-box;
@@ -67,11 +67,10 @@ select{
     border: 2px solid #D448B5;
     box-sizing: border-box;
     border-radius: 10px;
+    font-size: 1.5em;
 }
 
-
-
-#paste{
+#send{
 position: absolute;
 width: 223px;
 height: 66px;
