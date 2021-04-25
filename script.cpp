@@ -51,7 +51,7 @@ int main()
     cout << "<p>";
     
     name = form("name");
-	unique = antiPlagiarism(getDB, name)
+	unique = antiPlagiarism(getDB, name);
 
     if (!name.empty()) {
     	cout << round(unique) << "\n";
