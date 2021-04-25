@@ -2,6 +2,7 @@
 #include <string>
 #include <stdio.h>
 #include <stdlib.h>
+#include <fstream>
 #include <cgicc/CgiDefs.h>
 #include <cgicc/Cgicc.h>
 #include <cgicc/HTTPHTMLHeader.h>
@@ -40,6 +41,7 @@ int main()
 {
     Cgicc form;
     string name;
+
 	double unique;
 
     cout << "Content-type:text/html\r\n\r\n";
@@ -50,8 +52,8 @@ int main()
     cout << "<body>\n";
     cout << "<p>";
     
-    name = form("name");
-	unique = antiPlagiarism(getDB, name);
+	name = form("name");
+	unique = antiPlagiarism(getDB(), name);
 
     if (!name.empty()) {
     	cout << round(unique) << "\n";
@@ -70,9 +72,9 @@ int getInt(string name){
 }
 
 string getDB(){
-	std::ifstream in("db.txt");
+	string dbText = "", s1;
 
-    string dbText = "", s1;
+	ifstream in("db.txt");
     while (getline(in, s1))
     	dbText += s1;
   
@@ -126,7 +128,7 @@ string getLowercaseText(string text)
 
 char getLowercase(char element)
 {
-	if (element >= -64 and element <= -33)
+	if (element >= -64 && element <= -33)
 	{
 		int number = element;
 		return number + 32;
