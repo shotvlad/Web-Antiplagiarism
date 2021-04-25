@@ -110,10 +110,6 @@ double antiPlagiarism(string text, string fragment) {
 	text = deleteSpaces(text);
 	fragment = deleteSpaces(fragment);
 
-	cout << text << endl << endl;
-
-	system("pause");
-
 	return countingPlagiarism(text, fragment);
 }
 
@@ -432,8 +428,6 @@ double countingPlagiarism(string text, string fragment) {
 			if (counter != 3) break;
 		}
 	}
-
-	cout << possibleMatches << '|' << matches << endl;
 
 	return (100 * matches) / possibleMatches;
 }
