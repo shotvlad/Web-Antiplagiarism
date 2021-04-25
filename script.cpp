@@ -6,6 +6,7 @@
 #include <cgicc/Cgicc.h>
 #include <cgicc/HTTPHTMLHeader.h>
 #include <cgicc/HTMLClasses.h>
+
 using namespace std;
 using namespace cgicc;
 
@@ -39,7 +40,7 @@ int main()
 {
     Cgicc form;
     string name;
-	double unique
+	double unique;
 
     cout << "Content-type:text/html\r\n\r\n";
     cout << "<html>\n";
