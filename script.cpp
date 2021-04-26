@@ -59,7 +59,7 @@ int main()
 	unique = antiPlagiarism(getDB(), name);
 
     if (!name.empty()) {
-		cout << "1234566\n";
+		cout << "-";
     	cout << round(unique) << "\n";
     } else {
     	cout << "Text is not provided!\n";
