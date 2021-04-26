@@ -2,7 +2,6 @@
 #include <string>
 #include <stdio.h>
 #include <stdlib.h>
-#include "windows.h"
 #include <cgicc/CgiDefs.h>
 #include <cgicc/Cgicc.h>
 #include <cgicc/HTTPHTMLHeader.h>
@@ -38,8 +37,6 @@ string getDB();//get origin text from db.txt (don't modify tis function)
 
 int main()
 {
-	SetConsoleOutputCP(1251);
-	SetConsoleCP(1251);
 
     Cgicc form;
     string name;
