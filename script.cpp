@@ -36,7 +36,6 @@ string deletingSingleCharacterElements(string text);
 double countingPlagiarism(string text, string fragment);
 string getThreeWords(string words, int& lastIndex, string text, int& counter);
 
-int getInt(string name);//get length of text putted in the form on your site(this function we use only for example)
 string getDB();//get origin text from db.txt (don't modify tis function)
 
 int main()
@@ -68,10 +67,6 @@ int main()
     cout << "</html>\n";
 
     return 5;
-}
-
-int getInt(string name){
-	return name.length();
 }
 
 string getDB() {
