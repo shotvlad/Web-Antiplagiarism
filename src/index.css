@@ -20,7 +20,7 @@ body {
 
 #textAi {
     position: relative;
-    top: 0.48em;
+    top: -11.5em;
     font-size: 5em;
     margin-left: 10.1em;
     /*font-weight: bolder;*/
@@ -30,7 +30,7 @@ body {
 #textApp {
     position: relative;
     font-weight: 300;
-    top: 1.66em;
+    top: -18.5em;
     font-size: 3em;
     margin-left: 11.5em;
     color: white;
