@@ -59,8 +59,7 @@ int main()
 	unique = antiPlagiarism(getDB(), name);
 
     if (!name.empty()) {
-		cout << "-\n";
-    	cout << round(unique) << "\n";
+    	cout << unique << "\n";
     } else {
     	cout << "Text is not provided!\n";
     }	
@@ -79,7 +78,7 @@ int getInt(string name){
 string getDB() {
 	string dbText = "", s1;
 
-	ifstream in("https://github.com/Kirill-Klimenok/Web-Antiplagiarism/blob/875d7bc4d9ac59b4b3da98d83e82cb73ee536259/db.txt");
+	ifstream in("db.txt");
 
 	while (getline(in, s1)) {
 		dbText += s1;
