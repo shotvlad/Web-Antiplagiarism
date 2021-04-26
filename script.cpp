@@ -67,7 +67,7 @@ int main()
     cout << "</body>\n";
     cout << "</html>\n";
 
-    return 0;
+    return 5;
 }
 
 int getInt(string name){
