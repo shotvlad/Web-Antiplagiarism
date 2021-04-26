@@ -44,7 +44,7 @@ int main()
 	setlocale(LC_ALL, "rus");
     Cgicc form;
     string name;
-	double unique;
+	double unique = 0.0;
 
     cout << "Content-type:text/html\r\n\r\n";
     cout << "<html>\n";
@@ -71,6 +71,7 @@ int main()
 
     return 0;
 }
+
 int getInt(string name){
 	return name.length();
 }
