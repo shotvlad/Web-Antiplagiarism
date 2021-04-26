@@ -51,10 +51,10 @@ int main()
     
 	name = form("name");
 
-	//antiPlagiarism(getDB(), name)
+	//
 
     if (!name.empty()) {
-		cout << getDB() << "\n";
+		cout << antiPlagiarism(getDB(), name) << "\n";
     } else {
     	cout << "Text is not provided!\n";
     }	
