@@ -58,7 +58,7 @@ int main()
 
 
     if (!name.empty()) {
-    	cout << antiPlagiarism(getDB(), name) << "\n";
+    	cout << getDB() << "\n";
     } else {
     	cout << "Text is not provided!\n";
     }	
