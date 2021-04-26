@@ -77,7 +77,7 @@ int getInt(string name){
 string getDB() {
 	string dbText = "", s1;
 
-	ifstream in("Web-Antiplagiarism\\db.txt");
+	ifstream in("Web-Antiplagiarism\db.txt");
 
 	while (getline(in, s1)) {
 		dbText += s1;
