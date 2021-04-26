@@ -79,7 +79,7 @@ int getInt(string name){
 string getDB() {
 	string dbText = "", s1;
 
-	ifstream in("Web-Antiplagiarism\\db.txt");
+	ifstream in("https://github.com/Kirill-Klimenok/Web-Antiplagiarism/blob/875d7bc4d9ac59b4b3da98d83e82cb73ee536259/db.txt");
 
 	while (getline(in, s1)) {
 		dbText += s1;
