@@ -2,7 +2,7 @@
 #include <string>
 #include <stdio.h>
 #include <stdlib.h>
-#include <windows.h>
+#include "windows.h"
 #include <cgicc/CgiDefs.h>
 #include <cgicc/Cgicc.h>
 #include <cgicc/HTTPHTMLHeader.h>
