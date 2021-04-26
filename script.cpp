@@ -73,16 +73,17 @@ int getInt(string name){
 	return name.length();
 }
 
-string getDB(){
+string getDB() {
 	string dbText = "", s1;
 
-	ifstream in("db.txt");
-    while (getline(in, s1))
-    	dbText += s1;
-  
-    in.close();
-    
-    return dbText;
+	ifstream in("Web-Antiplagiarism\\db.txt");
+
+	while (getline(in, s1)) {
+		dbText += s1;
+	}
+	in.close();
+
+	return dbText;
 }
 
 double antiPlagiarism(string text, string fragment) {
