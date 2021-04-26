@@ -3,7 +3,6 @@
 #include <cmath>
 #include <stdio.h>
 #include <stdlib.h>
-#include <clocale>
 #include <cgicc/CgiDefs.h>
 #include <cgicc/Cgicc.h>
 #include <cgicc/HTTPHTMLHeader.h>
@@ -39,7 +38,6 @@ string getDB();//get origin text from db.txt (don't modify tis function)
 
 int main()
 {
-//	setlocale(LC_ALL, "rus");
     Cgicc form;
     string name;
 
