@@ -40,7 +40,7 @@ string getDB();//get origin text from db.txt (don't modify tis function)
 
 int main()
 {
-	setlocale(LC_ALL, "rus");
+//	setlocale(LC_ALL, "rus");
     Cgicc form;
     string name;
 
