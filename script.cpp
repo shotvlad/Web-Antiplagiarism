@@ -3,7 +3,6 @@
 #include <cmath>
 #include <stdio.h>
 #include <stdlib.h>
-#include <fstream>
 #include <clocale>
 #include <cgicc/CgiDefs.h>
 #include <cgicc/Cgicc.h>
@@ -70,9 +69,9 @@ int main()
 }
 
 string getDB() {
-	string dbText = "", s1;
+	std::ifstream in("db.txt");
 
-	ifstream in("db.txt");
+	string dbText = "", s1;
 
 	while (getline(in, s1)) {
 		dbText += s1;
