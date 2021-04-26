@@ -54,10 +54,11 @@ int main()
     cout << "<p>";
     
 	name = form("name");
+
 	unique = antiPlagiarism(getDB(), name);
 
     if (!name.empty()) {
-    	cout << unique << "\n";
+    	cout << round(unique) << "\n";
     } else {
     	cout << "Text is not provided!\n";
     }	

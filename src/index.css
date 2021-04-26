@@ -1,11 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
     border: 0;
     font-family: 'Exo 2', sans-serif;
 }
 
-body{
+body {
     font-family: 'Exo 2', sans-serif;
     position: relative;
     background: linear-gradient(90deg, #C33764 0%, #1D2671 100%), #C33764;
@@ -15,54 +15,47 @@ body{
     position: relative;
     width: 100%;
     height: 100%;
- }
- 
+}
 
-#textAi{
+
+#textAi {
     position: relative;
     top: 0.48em;
     font-size: 5em;
     margin-left: 10.1em;
-
     /*font-weight: bolder;*/
-
     color: white;
 }
 
-#textApp{
-    position:relative;
+#textApp {
+    position: relative;
     font-weight: 300;
     top: 1.66em;
     font-size: 3em;
     margin-left: 11.5em;
-   
-
     color: white;
 }
 
-#value{
-position: absolute;
-width: 560px;
-height: 240px;
-left: 315px;
-top: 372px;
-padding: 1em;
-background: #F4F4F4;
-border: 2px solid #D448B5;
-box-sizing: border-box;
-border-radius: 20px;
-
-font-size: 20px;
-
+#value {
+    position: absolute;
+    width: 560px;
+    height: 240px;
+    left: 315px;
+    top: 372px;
+    padding: 1em;
+    background: #F4F4F4;
+    border: 2px solid #D448B5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 20px;
 }
 
-select{
+select {
     position: absolute;
     width: 320px;
     height: 70px;
-    left:317px;
+    left: 317px;
     top: 643px;
-    
     background: #FFFFFF;
     border: 2px solid #D448B5;
     box-sizing: border-box;
@@ -70,120 +63,117 @@ select{
     font-size: 1.5em;
 }
 
-#send{
-position: absolute;
-width: 223px;
-height: 66px;
-left: 650px;
-top: 644px;
-background: #D448B5;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 10px;
-
-font-style: normal;
-font-weight: bold;
-font-size: 28px;
-line-height: 34px;
-color: white;
+#send {
+    position: absolute;
+    width: 223px;
+    height: 66px;
+    left: 650px;
+    top: 644px;
+    background: #D448B5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: white;
 }
 
-#result{
+#result {
     position: relative;
     color: white;
     font-size: 1.5em;
-    margin-top: 6em;   
+    margin-top: 6em;
     margin-left: 55%;
 }
 
-#img{
-position: absolute;
-width: 560px;
-height: 340px;
-left: 960px;
-top: 372px;
-border-radius: 20px;
-background-image:url("src/main.png");
+#img {
+    position: absolute;
+    width: 560px;
+    height: 340px;
+    left: 960px;
+    top: 372px;
+    border-radius: 20px;
 }
 
-.footter{
-position: absolute;
-width: 1180px;
-height: 90px;
-left: 317px;
-top: 851.81px;
-background: #FFFFFF;
-border: 2px solid #D448B5;
-box-sizing: border-box;
-border-radius: 10px;
+.footter {
+    position: absolute;
+    width: 1180px;
+    height: 90px;
+    left: 317px;
+    top: 851.81px;
+    background: #FFFFFF;
+    border: 2px solid #D448B5;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
 
-#lable{
-position: absolute;
-left: 6.4%;
-right: 82.74%;
-top: 33.81%;
-bottom: 36.59%;
-text-align: center;
-font-size: 23px;
-font-style: normal;
-font-weight: bolder;
-color: #D448B5;
+#lable {
+    position: absolute;
+    left: 6.4%;
+    right: 82.74%;
+    top: 33.81%;
+    bottom: 36.59%;
+    text-align: center;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: bolder;
+    color: #D448B5;
 }
 
 
-.fab.fa-github{
+.fab.fa-github {
     position: relative;
     left: 24.22em;
     top: -0.2em;
-font-size: 2.5em;
-color: #D448B5;
+    font-size: 2.5em;
+    color: #D448B5;
 }
-.fab.fa-vk{
+
+.fab.fa-vk {
     position: relative;
     left: 25.8em;
     top: -1.2em;
-font-size: 2.5em;
-color: #D448B5;
+    font-size: 2.5em;
+    color: #D448B5;
 }
-.fab.fa-facebook-square{
+
+.fab.fa-facebook-square {
     position: relative;
     left: 24.52em;
     top: -2em;
-font-size: 2.8em;
-color: #D448B5;
+    font-size: 2.8em;
+    color: #D448B5;
 }
-#nickname{
-position:absolute;
-left: 42.7%;
-top: 35.13%;
 
-font-style: normal;
-font-size: 23px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-/* second text */
-
-color: #5C5C5C;
-
+#nickname {
+    position: absolute;
+    left: 42.7%;
+    top: 35.13%;
+    font-style: normal;
+    font-size: 23px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* second text */
+    color: #5C5C5C;
 }
-.textDEV{
-    position:absolute;
-    left:3.5%;
+
+.textDEV {
+    position: absolute;
+    left: 3.5%;
     font-size: 0.7em;
     top: 3.4em;
     color: white;
 }
 
-.fas.fa-egg{
-position: relative;
-left: 3.4%;
-right: 86.18%;
-top: 30.92%;
-bottom: 10.86%;
-font-size: 2.09em;
-color: #D448B5;
+.fas.fa-egg {
+    position: relative;
+    left: 3.4%;
+    right: 86.18%;
+    top: 30.92%;
+    bottom: 10.86%;
+    font-size: 2.09em;
+    color: #D448B5;
 }
