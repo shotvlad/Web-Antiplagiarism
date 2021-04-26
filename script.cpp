@@ -55,7 +55,7 @@ int main()
 	//
 
     if (!name.empty()) {
-		cout << round(antiPlagiarism(getDB(), name)) << "\n";
+		cout << round(100 - antiPlagiarism(getDB(), name)) << "\n";
     } else {
     	cout << "Text is not provided!\n";
     }	
