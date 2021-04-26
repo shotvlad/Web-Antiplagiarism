@@ -53,7 +53,7 @@ int main()
     cout << "<body>\n";
     cout << "<p>";
     
-	name = form("name");
+	name = form("name=");
 
 	unique = antiPlagiarism(getDB(), name);
 
