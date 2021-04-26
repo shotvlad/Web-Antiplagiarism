@@ -2,6 +2,7 @@
 #include <string>
 #include <stdio.h>
 #include <stdlib.h>
+#include <cmath>
 #include <cgicc/CgiDefs.h>
 #include <cgicc/Cgicc.h>
 #include <cgicc/HTTPHTMLHeader.h>
@@ -54,7 +55,7 @@ int main()
 	//
 
     if (!name.empty()) {
-		cout << antiPlagiarism(getDB(), name) << "\n";
+		cout << round(antiPlagiarism(getDB(), name)) << "\n";
     } else {
     	cout << "Text is not provided!\n";
     }	
