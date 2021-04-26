@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <cmath>
 #include <stdio.h>
 #include <stdlib.h>
 #include <cgicc/CgiDefs.h>
@@ -51,10 +50,10 @@ int main()
     
 	name = form("name");
 
-
+	//antiPlagiarism(getDB(), name)
 
     if (!name.empty()) {
-    	cout <<antiPlagiarism(getDB(), name) << "\n";
+		cout << getDB() << "\n";
     } else {
     	cout << "Text is not provided!\n";
     }	
