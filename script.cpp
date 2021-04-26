@@ -44,7 +44,6 @@ int main()
 	setlocale(LC_ALL, "rus");
     Cgicc form;
     string name;
-	double unique = 0.0;
 
     cout << "Content-type:text/html\r\n\r\n";
     cout << "<html>\n";
@@ -56,10 +55,10 @@ int main()
     
 	name = form("name");
 
-	unique = antiPlagiarism(getDB(), name);
+
 
     if (!name.empty()) {
-    	cout << unique << "\n";
+    	cout << antiPlagiarism(getDB(), name) << "\n";
     } else {
     	cout << "Text is not provided!\n";
     }	
