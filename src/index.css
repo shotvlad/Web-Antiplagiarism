@@ -8,6 +8,8 @@
 body {
     font-family: 'Exo 2', sans-serif;
     position: relative;
+    width: auto;
+    height: auto;
     background: linear-gradient(90deg, #C33764 0%, #1D2671 100%), #C33764;
 }
 
@@ -19,29 +21,29 @@ body {
 
 
 #textAi {
-    position: relative;
-    top: -11.5em;
-    font-size: 5em;
-    margin-left: 10.1em;
+    position: absolute;
+    top: 6.5%;
+    font-size: 5rem;
+    left: 40%;
     /*font-weight: bolder;*/
     color: white;
 }
 
 #textApp {
-    position: relative;
+    position: absolute;
     font-weight: 300;
-    top: -18.5em;
+    top: 21%;
     font-size: 3em;
-    margin-left: 11.5em;
+    left: 26.8%;
     color: white;
 }
 
 #value {
     position: absolute;
-    width: 560px;
-    height: 240px;
-    left: 315px;
-    top: 372px;
+    width: 29.2%;
+    height: 25%;
+    left: 17%;
+    top: 41%;
     padding: 1em;
     background: #F4F4F4;
     border: 2px solid #D448B5;
@@ -52,10 +54,10 @@ body {
 
 select {
     position: absolute;
-    width: 320px;
-    height: 70px;
-    left: 317px;
-    top: 643px;
+    width: 16.8%;
+    height: 7.2%;
+    left: 17%;
+    top: 69.5%;
     background: #FFFFFF;
     border: 2px solid #D448B5;
     box-sizing: border-box;
@@ -65,57 +67,62 @@ select {
 
 #send {
     position: absolute;
-    width: 223px;
-    height: 66px;
-    left: 650px;
-    top: 644px;
+    width: 11.9%;
+    height: 7%;
+    left: 34.5%;
+    top: 69.2%;
     background: #D448B5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     font-style: normal;
     font-weight: bold;
-    font-size: 28px;
-    line-height: 34px;
+    font-size:x-large;
     color: white;
 }
 
 #result {
-    position: relative;
-    color: white;
-    font-size: 1.5em;
-    margin-top: -32.5em;
-    margin-left: 55%;
+position:absolute;
+left: 55%;
+top: 33%;
+color: white;
+font-size: x-large;
 }
 
 #img {
     position: absolute;
-    width: 560px;
-    height: 340px;
-    left: 960px;
-    top: 372px;
+    width: 29.5%;
+    height: 36%;
+    left: 49.5%;
+    top: 41%;
     border-radius: 20px;
+}
+
+.mainImg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .footter {
     position: absolute;
-    width: 1180px;
-    height: 90px;
-    left: 317px;
-    top: 851.81px;
+    width: 61.5%;
+    height: 9%;
+    left: 17%;
+    top: 91.5%;
     background: #FFFFFF;
     border: 2px solid #D448B5;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 1em;
 }
 
 #lable {
     position: absolute;
     left: 6.4%;
     right: 82.74%;
-    top: 33.81%;
+    top: 29.81%;
     bottom: 36.59%;
     text-align: center;
-    font-size: 23px;
+    font-size: 1.5em;
     font-style: normal;
     font-weight: bolder;
     color: #D448B5;
@@ -123,35 +130,35 @@ select {
 
 
 .fab.fa-github {
-    position: relative;
-    left: 24.22em;
-    top: -0.2em;
-    font-size: 2.5em;
+    position: absolute;
+    left: 83%;
+    top: 24.5%;
+    font-size: 3em;
     color: #D448B5;
 }
 
 .fab.fa-vk {
-    position: relative;
-    left: 25.8em;
-    top: -1.2em;
-    font-size: 2.5em;
+    position: absolute;
+    left: 88.3%;
+    top: 24.5%;
+    font-size: 3em;
     color: #D448B5;
 }
 
 .fab.fa-facebook-square {
-    position: relative;
-    left: 24.52em;
-    top: -2em;
-    font-size: 2.8em;
+    position: absolute;
+    left:94%;
+    top: 22%;
+    font-size: 3em;
     color: #D448B5;
 }
 
 #nickname {
     position: absolute;
     left: 42.7%;
-    top: 35.13%;
+    top: 32.13%;
     font-style: normal;
-    font-size: 23px;
+    font-size: 140%;
     /* identical to box height */
     display: flex;
     align-items: center;
@@ -164,16 +171,16 @@ select {
     position: absolute;
     left: 3.5%;
     font-size: 0.7em;
-    top: 3.4em;
+    top: 40%;
     color: white;
 }
 
 .fas.fa-egg {
-    position: relative;
-    left: 3.4%;
+    position: absolute;
+    left: 3.2%;
     right: 86.18%;
-    top: 30.92%;
+    top: 25.92%;
     bottom: 10.86%;
-    font-size: 2.09em;
+    font-size: 220%;
     color: #D448B5;
 }
