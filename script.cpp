@@ -68,7 +68,7 @@ int main()
 }
 
 string getDB() {
-	std::ifstream in("db.txt");
+	std::ifstream in("db1.txt");
 
 	string dbText = "", s1;
 
